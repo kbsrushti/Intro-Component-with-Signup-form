@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Skill Safari| Intro component with sign up form</title>
+
+ 
+
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+    <!---custom css-->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body data-gr-c-s-loaded="true" class="vsc-initialized" style="user-select: auto">
+
+
+        <div class="container">
+          <div class="intro ">
+            <h1>Learn to code by watching others</h1>
+        
+            <p class="pt-3">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+              but understanding how developers think is invaluable.</p>
+          </div>
+        
+          <div class="signup">
+        
+            <div class="trial">
+              <p><strong>Try it free for 7 days. </strong>Then it's Rs 500/mon </p>
+            </div>
+        
+            <div class="signup-box">
+              <form name="signup" class="signup-form" action="#" method="post">
+
+                <input type="text" name="f" value="" placeholder="First Name" onfocus="this.className='focus'" onfocusout="this.className ='input'" onblur="FirstName()">
+
+                <img src="images/icon-error.svg" alt="" class="error-f">
+
+                <p class="error-msg-f">First Name cannot be empty</p>
+
+                <input type="text" name="l" value="" placeholder="Last Name" onfocus="this.className='focus'" onfocusout="this.className ='input'" onblur="LastName()">
+
+                <img src="images/icon-error.svg" alt="" class="error-l">
+
+                <p class="error-msg-l">Last Name cannot be empty</p>
+
+                <input type="email" name="e" value="" placeholder="Email Address" onfocus="this.className='focus'" onfocusout="this.className ='input'" onblur="Email()">
+
+                <img src="images/icon-error.svg" alt="" class="error-e">
+
+                <p class="error-msg-e">Looks like this is not an email</p>
+
+                <input type="password" name="p" value="" placeholder="Password" onfocus="this.className='focus'" onfocusout="this.className ='input'" onblur="Password()">
+
+                <img src="images/icon-error.svg" alt="" class="error-p">
+
+                <p class="error-msg-p">Password cannot be empty</p>
+
+                <button type="submit" name="button" onclick="return Validation_data();">CLAIM YOUR FREE TRIAL</button>
+
+              </form>
+              <p class="t-a-s">By clicking the button, you are agreeing to our <strong style="color: hsl(0, 100%, 74%);">Terms and Services</strong></p>
+            </div>
+        
+          </div>
+        </div>
+        
+        
+       
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- custom script -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
